@@ -1,0 +1,8 @@
+package june10_2;
+
+public class Dog extends Amimal {
+        
+   	 int tail =18;
+	
+
+}

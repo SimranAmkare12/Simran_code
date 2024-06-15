@@ -1,0 +1,9 @@
+package june13;
+
+public class Axis extends Bank{
+
+	public double rate() {
+		//rate_of_interest =8.5;
+		return rate_of_interest;
+	}
+}

@@ -1,0 +1,10 @@
+package This_example;
+
+public class Main {
+	
+       public static void main(String[] args) {
+    	   
+    	   Employee e = new Employee(30000," 12");
+	}
+       
+}

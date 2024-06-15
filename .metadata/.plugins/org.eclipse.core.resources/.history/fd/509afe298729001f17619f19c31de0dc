@@ -1,0 +1,32 @@
+package static_example;
+
+public class Student {
+
+	String name ;
+	String subject ;
+	static String collegname = "IES";
+	
+	public static void mainn(String args[]) {
+		Student s= new Student();
+		s.name = "Simran";
+		s.subject ="bca";
+		s.collegname="nri";
+		
+		Student s1= new Student();
+		s1.name = "reean";
+		s1.subject ="mca";
+		s1.collegname="sagar";
+		
+		System.out.println(s);
+		
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", subject=" + subject + ", getClass()=" + getClass() + ", hashCode()="
+				+ hashCode() + ", toString()=" + super.toString() + "]";
+	}
+	
+	  
+}

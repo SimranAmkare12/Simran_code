@@ -1,0 +1,7 @@
+package Area_example;
+
+public class Shape {
+ public void calculate_Area(int l,int b) {
+	 
+ }
+}

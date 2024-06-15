@@ -1,0 +1,17 @@
+package june_7;
+
+public class Animal2 {
+
+	 public static void main(String args[]) {
+		 Animal a1= new Animal();
+		 a1.setName(null);
+		 a1.setAnimal_type(null);
+		 a1.setEat(0);
+		 
+		System.out.println(a1.getAnimal_type());
+		System.out.println(a1.getName()); 
+		System.out.println( a1.getEat()); 
+
+
+	 }
+}

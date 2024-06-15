@@ -1,0 +1,26 @@
+package june_7;
+
+public class Student2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Student s = new Student();
+		s.setName("Simran amkare ");
+		s.setRollno(12);
+		
+		Address ad = new Address("shehore","mp","65463");
+		ad.setCity("Bhopal");
+		ad.setPincode("1213");
+		ad.setState("mp");
+		
+		s.setName("harshi");
+		s.setRollno(456);
+		
+		//s.setS_add(add);
+		
+		
+		
+	}
+
+}

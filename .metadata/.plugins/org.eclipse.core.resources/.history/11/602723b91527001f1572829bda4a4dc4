@@ -1,0 +1,15 @@
+package june_7;
+
+public class Student2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Student s = new Student();
+		s.setName("Simran amkare ");
+		s.setRollno(12);
+		
+		
+	}
+
+}

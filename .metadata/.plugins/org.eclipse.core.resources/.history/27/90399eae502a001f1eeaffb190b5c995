@@ -1,0 +1,23 @@
+package This_example;
+
+public class Employee {
+
+	 private String name ;
+	 
+	 public void setname(String n) {
+		name  = n ;
+	 }
+	 
+	 public String getName() {
+		 return name;
+	 }
+	 
+	  private  Employee(int salary) {
+		  System.out.println("Salary is transfer to emp account"+salary);
+	  }
+	  
+	  public Employee(int paisa,String id) {
+		  this(paisa);
+		  System.out.println("  work has been done "+paisa+id);
+	  }
+}

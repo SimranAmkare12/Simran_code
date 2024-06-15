@@ -1,0 +1,14 @@
+package june11;
+
+public class Mainmain {
+
+	 public static void main(String args[] ){
+		 Appliances a = new  Appliances();
+		 a.setBrandname("bajaj");
+		 a.setPrice(12000);
+		 
+		 System.out.println(a.getBrandname());
+		 System.out.println(a.getPrice());
+		 
+	 }
+}

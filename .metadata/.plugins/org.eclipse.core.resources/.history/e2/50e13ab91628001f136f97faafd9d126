@@ -1,0 +1,12 @@
+package Inheritance_hw;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		Laptop l = new Laptop();
+		System.out.println(l);
+
+	}
+
+}
