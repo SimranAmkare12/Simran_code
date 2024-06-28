@@ -1,9 +1,0 @@
-package Overriding_example;
-
-public class BankAccount {
-	
-  public static int deposit(int amt) {
-	  return amt;
-  }
-  
-}

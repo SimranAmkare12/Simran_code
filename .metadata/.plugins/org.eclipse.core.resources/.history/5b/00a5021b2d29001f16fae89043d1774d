@@ -1,8 +1,0 @@
-package Area_example;
-
-public class Rectangle extends Shape {
-   public void calculate_area(int l ,int b) {
-	   int area =  l*b;
-	   System.out.println("Area of rectangle"+area);
-   }
-}

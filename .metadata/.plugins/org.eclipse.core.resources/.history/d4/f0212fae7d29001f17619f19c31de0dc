@@ -1,9 +1,0 @@
-package Overriding_example;
-
-public class Animal {
- 
-	public void makeSound() {
-		System.out.println("making sound ny Animal class. .. ");
-	}
-	
-}
