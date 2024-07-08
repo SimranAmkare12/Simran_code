@@ -8,6 +8,10 @@ public class Test_vehicle {
 		Car c = new Car();
 		System.out.println(""+c);
 		
+	
+		Car.start_engine();
+		//Vehicle.start_engine();
+		
 	}
 
 }

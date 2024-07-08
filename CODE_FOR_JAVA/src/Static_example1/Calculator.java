@@ -4,7 +4,7 @@ public class Calculator {
 
 	static int num1 ;
 	static int num2 ;
-	static
+	static  //the static block executed only once
 	{
 		num1 =12;
 		num2 =24;

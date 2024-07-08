@@ -1,4 +1,4 @@
-package june10_2;
+package single_level_inheritance2;
 
 public class Dog extends Amimal {
         
