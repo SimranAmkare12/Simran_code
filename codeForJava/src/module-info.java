@@ -4,5 +4,5 @@
 /**
  * 
  */
-module codeForJava {
+module sim {
 }
