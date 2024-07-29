@@ -1,6 +1,5 @@
 package final_keyword_example;
 
-public class Student {
 
 	
 	public class Student{
@@ -31,4 +30,4 @@ public class Student {
 			System.out.println(s);
 		}
 }
-}
+

@@ -13,7 +13,7 @@ public class DemoA {
 		
 		try {
 			t.join();
-			//t.sleep(3);
+			t.sleep(3);
 		}
 		catch(InterruptedException e){
 			e.printStackTrace();

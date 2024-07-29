@@ -1,12 +1,12 @@
 package Overloading_calculate_sum;
 
 public class Calculate_sum {    // overloading
-  public static  int add(int a ,int b) {    //static
-	  return a+b;
-  }
-  public static  int add(int a ,int b,int c) {    //static
-	  return a+b+c;
-  }
+     public static  int add(int a ,int b) {    //static
+	     return a+b;
+     }
+     public static  int add(int a ,int b,int c) {    //static
+	     return a+b+c;
+     }
   
   public static int add() {
 	  return 0;
