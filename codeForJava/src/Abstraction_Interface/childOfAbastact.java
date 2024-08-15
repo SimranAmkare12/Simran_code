@@ -23,7 +23,8 @@ public class childOfAbastact extends DemoAbstract  {
 	public void test() {
 		System.out.println(" trying");
 	}
-public static void main(String[] args) {
+	
+     public static void main(String[] args) {
 		
 	Demo o = new Demo();
 	

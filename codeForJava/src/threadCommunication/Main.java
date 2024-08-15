@@ -10,7 +10,7 @@ public class Main {
 		 
 		 synchronized(te) {
 			 try {
-				 te.wait(); //wait for main method
+				 te.wait(); // wait for main method
 			 }
 			 catch(Exception e){
 				 System.out.println(e);
@@ -19,7 +19,7 @@ public class Main {
 			
 		 }
 		 System.out.println("hello");
-		 System.out.println("Total earning -- Rs"+te.total);
+		 System.out.println("Total earning -- Rs "+te.total);
 		 System.out.println("end");
 	}
 

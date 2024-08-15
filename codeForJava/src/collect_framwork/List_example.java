@@ -16,18 +16,18 @@ public class List_example {
 		st.push(50);
 		
 		
+		
+  	for(int i =0 ; i<st.size() ; i++) {
+			
+			System.out.println(st.get(i));
+		}
 //		
-//		for(int i =0 ; i<st.size() ; i++) {
-//			
-//			System.out.println(st.get(i));
+//		Iterator itr =st.iterator();
+//		while(itr.hasNext()) {
+//			System.out.print(itr.next()+" ");
+//			itr.remove();
 //		}
 //		
-		Iterator itr =st.iterator();
-		while(itr.hasNext()) {
-			System.out.print(itr.next()+" ");
-			itr.remove();
-		}
-		
 		
 		
 		
@@ -45,6 +45,7 @@ public class List_example {
 			  System.out.print( itrr.next()+" ");
 			}
 		
+	/////////////////////////////////////////////////
 		
 		System.out.println();
 		System.out.println("arraylist...");

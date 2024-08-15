@@ -6,9 +6,9 @@ public class TestAB {
 		
         Common c = new Common() ;     //lock 
 		
-		ThreadA t1 = new ThreadA(c,"Ram");
+		ThreadA t1 = new ThreadA(c,"Ajay");   // calling the parameterized ThreadA constructor
 		
-		ThreadA t2 = new ThreadA(c,"Shyam");
+		ThreadA t2 = new ThreadA(c,"Vijay");   // / calling the parameterized ThreadB constructor
 		
 		t1.start();
 		
