@@ -28,17 +28,24 @@ public class Practice1 {
 			*/
 	//with using stream API
 			
-			Stream<Integer> stream =list.stream() ;
-			List<Integer> even = stream.filter(x-> x%2 == 0).collect(Collectors.toList());
+			String s ="java ";
+			int x =100;
+		     
+			String alingn = s.format("%-15s",s);
+			System.out.print(alingn);
+			System.out.print(x);
+			
+		/***	List<Integer> even = stream.filter(x-> x%2 == 0).collect(Collectors.toList());
 			System.out.println(even);
 			
-			 List<Integer> enn= list.stream().filter(x -> x% 2 ==0 ).collect(Collectors.toList());
+		    List<Integer> enn= list.stream().filter(x -> x% 2 ==0 ).collect(Collectors.toList());
 			System.out.println(enn);
+			
 			
 			
 			List<Integer> greater = list.stream().filter(x -> x> 3).collect(Collectors.toList());
 			System.out.println(greater);
-			
+			***/
 			
 			
 			
